@@ -4,7 +4,7 @@ package atividade01;
 import javax.swing.JOptionPane;
 
 
-public class Exercicio04 {
+public class Exercicio04arrumar {
     public static void main(String[] args) {
         double numero=1,numerosoma=0;
         String aux=null;

@@ -3,7 +3,7 @@ package atividade01;
 
 import javax.swing.JOptionPane;
 
-public class Exercicio08 {
+public class Exercicio08fazer {
     public static void main(String[] args) {
         double horaaula=0,aulasmes=0,desconto=0,liquido=0;
         String aux = null;
