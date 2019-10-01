@@ -38,6 +38,11 @@ public class Exercicio04 {
          
          
     }
+        catch (NullPointerException ex) {
+            JOptionPane.showMessageDialog(null, "Obrigado por utilizar nosso sistema");
+            System.exit(0);
+        
+    }
     
     }
 }

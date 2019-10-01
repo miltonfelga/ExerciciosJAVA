@@ -25,10 +25,15 @@ public class Exercicio14 {
 }
         JOptionPane.showMessageDialog(null,"A menor idade é do: "+menorn+" com "+menor+" ano(s).");
 }
-          catch (NumberFormatException erro) {
+        catch (NumberFormatException erro) {
            JOptionPane.showMessageDialog(null, "Houve erro na conversão, digite apenas caracteres numericos");
            main(args); 
         
-        }       
+        }
+        catch (NullPointerException ex) {
+            JOptionPane.showMessageDialog(null, "Obrigado por utilizar nosso sistema");
+            System.exit(0);
+        
+    }
 }
 }

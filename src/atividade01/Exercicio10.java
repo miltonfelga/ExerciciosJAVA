@@ -26,7 +26,12 @@ public class Exercicio10 {
         catch (NumberFormatException erro) {
     
            JOptionPane.showMessageDialog(null, "Houve erro na conversão, digite apenas caracteres numericos");
-    }   
+    }
+        catch (NullPointerException ex) {
+            JOptionPane.showMessageDialog(null, "Obrigado por utilizar nosso sistema");
+            System.exit(0);
+        
+    }
     }
     
 }

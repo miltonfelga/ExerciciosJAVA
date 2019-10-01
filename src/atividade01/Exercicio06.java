@@ -89,11 +89,16 @@ public class Exercicio06 {
         somadias=somaa+somam+somad;
         JOptionPane.showMessageDialog(null, "São "+ somadias + " dias desde a data escolhida até o dia atual");
     }
-           catch (NumberFormatException erro) {
+        catch (NumberFormatException erro) {
            JOptionPane.showMessageDialog(null, "Houve erro na conversão, digite apenas caracteres numericos");
             
         
         }
+        catch (NullPointerException ex) {
+            JOptionPane.showMessageDialog(null, "Obrigado por utilizar nosso sistema");
+            System.exit(0);
+        
+    }
     }
 
     

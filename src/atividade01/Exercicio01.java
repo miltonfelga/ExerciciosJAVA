@@ -27,6 +27,12 @@ public class Exercicio01 {
     
             JOptionPane.showMessageDialog(null, "Houve erro na conversão, digite apenas caracteres numericos");
     }
+        
+        catch (NullPointerException ex) {
+            JOptionPane.showMessageDialog(null, "Obrigado por utilizar nosso sistema");
+            System.exit(0);
+        
+    }
 
     System.exit(0);
         

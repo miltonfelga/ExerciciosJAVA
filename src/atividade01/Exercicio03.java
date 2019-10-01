@@ -10,7 +10,7 @@ public class Exercicio03 {
                  
         try{ 
         
-         JOptionPane.showMessageDialog(null, "Saiba o perimtro.");
+         JOptionPane.showMessageDialog(null, "Saiba o perimetro.");
          
          aux = JOptionPane.showInputDialog(null, "Digite o raio ");
          raio = Double.parseDouble(aux);
@@ -24,5 +24,10 @@ public class Exercicio03 {
         JOptionPane.showMessageDialog(null, "Houve erro na conversão, digite apenas caracteres numericos");
     
         }
+        catch (NullPointerException ex) {
+            JOptionPane.showMessageDialog(null, "Obrigado por utilizar nosso sistema");
+            System.exit(0);
+        
+    }
     }
 }

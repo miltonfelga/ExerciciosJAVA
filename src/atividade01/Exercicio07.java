@@ -18,10 +18,15 @@ public class Exercicio07 {
             JOptionPane.showMessageDialog(null,"O valor descontado 9% será de: "+ novovalor);
             
         }
-             catch (NumberFormatException erro) {
+            catch (NumberFormatException erro) {
     
            JOptionPane.showMessageDialog(null, "Houve erro na conversão, digite apenas caracteres numericos");
-    }   
+    }
+            catch (NullPointerException ex) {
+            JOptionPane.showMessageDialog(null, "Obrigado por utilizar nosso sistema");
+            System.exit(0);
+        
+    }
         
     }
     

@@ -44,6 +44,11 @@ public class Exercicio11 {
            JOptionPane.showMessageDialog(null, "Houve erro na conversão, digite apenas caracteres numericos");
            main(args);
     }
+        catch (NullPointerException ex) {
+            JOptionPane.showMessageDialog(null, "Obrigado por utilizar nosso sistema");
+            System.exit(0);
+        
+    }
     
 }
 }
